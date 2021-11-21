@@ -1,0 +1,7 @@
+project = lyrahgames-autodiff
+
+using version
+using config
+using test
+using install
+using dist

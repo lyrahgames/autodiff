@@ -1,0 +1,16 @@
+: 1
+name: lyrahgames-autodiff
+version: 0.1.0-a.0.z
+summary: Header-Only C++ Library for Automatic Differentiation
+license: GPL-3.0-or-later ; GNU General Public License v3.0 or later.
+
+description-file: README.md
+url: https://github.com/lyrahgames/autodiff
+email: lyrahgames@mailbox.org
+#build-error-email: lyrahgames@mailbox.org
+
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0
+
+depends: lyrahgames-xstd == 0.1.4
+depends: doctest

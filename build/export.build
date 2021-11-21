@@ -1,0 +1,6 @@
+$out_root/
+{
+  include lyrahgames/autodiff/
+}
+
+export $out_root/lyrahgames/autodiff/$import.target

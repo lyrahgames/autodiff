@@ -1,0 +1,4 @@
+import libs = lyrahgames-autodiff%lib{lyrahgames-autodiff}
+import libs += doctest%lib{doctest}
+
+exe{unit-tests}: {hxx ixx txx cxx}{**} $libs testscript{**}
